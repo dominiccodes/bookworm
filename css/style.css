@@ -21,11 +21,19 @@ nav a:hover {
 
 /* Create hover and visited styles for all links inside 'main' */
 
+main a:hover {
+	color: #7FCCC2;
+}
 
+main a:visited {
+	color: brown;
+}
 
 /* Change the background color of the submit button when active */
 
-
+#btn:active {
+	background-color: brown;
+}
 
 /* Give the text field a blue border upon focus */
 
