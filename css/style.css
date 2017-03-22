@@ -37,7 +37,9 @@ main a:visited {
 
 /* Give the text field a blue border upon focus */
 
-
+input:focus {
+	border: solid 2px blue;
+}
 
 /* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
 
