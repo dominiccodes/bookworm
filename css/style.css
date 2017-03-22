@@ -43,7 +43,9 @@ input:focus {
 
 /* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
 
-
+.main-footer {
+	font-size: 14px;
+}
 
 /* Give the 'img' tag in the header an ID and set its width to 190px */
 
