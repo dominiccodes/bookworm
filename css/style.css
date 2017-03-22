@@ -4,13 +4,13 @@
 
 /* Change the color of all list items inside an unordered list */
 
-ul {
+ul li {
 	color: #7FCCC2;
 }
 
 /* Remove the text decoration from navigation links, and change their color when hovered */
 
-nav a {
+nav a:link {
 	text-decoration: none;
 	
 }
@@ -23,6 +23,7 @@ nav a:hover {
 
 main a:hover {
 	color: #7FCCC2;
+	text-decoration: none;
 }
 
 main a:visited {
@@ -31,20 +32,36 @@ main a:visited {
 
 /* Change the background color of the submit button when active */
 
+/* should use attribute selector that targets an input element*/
+
+/*
 #btn:active {
 	background-color: brown;
+}
+*/
+
+input[type='submit']:active {
+	background: firebrick;
 }
 
 /* Give the text field a blue border upon focus */
 
+/*
 input:focus {
+	border: solid 2px blue;
+}
+*/
+
+/*use attribute selector*/
+input[type='text']:focus {
 	border: solid 2px blue;
 }
 
 /* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
 
+/*could have used copyright as a class name*/
 .main-footer {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 /* Give the 'img' tag in the header an ID and set its width to 190px */
@@ -55,6 +72,7 @@ input:focus {
 
 /* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
 
+/*only uses h1 - h3 so don't need to put h4 - h6 */
 
 h1,
 h2,
