@@ -4,7 +4,9 @@
 
 /* Change the color of all list items inside an unordered list */
 
-
+ul {
+	color: #7FCCC2;
+}
 
 /* Remove the text decoration from navigation links, and change their color when hovered */
 
