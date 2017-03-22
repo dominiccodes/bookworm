@@ -10,7 +10,14 @@ ul {
 
 /* Remove the text decoration from navigation links, and change their color when hovered */
 
+nav a {
+	text-decoration: none;
+	
+}
 
+nav a:hover {
+	color: #7FCCC2;
+}
 
 /* Create hover and visited styles for all links inside 'main' */
 
